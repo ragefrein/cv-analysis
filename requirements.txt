@@ -1,6 +1,7 @@
 PySide6>=6.7
 opencv-python>=4.10
 numpy>=2.0
-ultralytics>=8.4
-boxmot>=26.0
+ultralytics>=8.4,<9
+boxmot>=26.0,<27
 torch>=2.5
+scipy>=1.13

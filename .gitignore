@@ -38,3 +38,4 @@ models/lmbn_n_duke.pt
 *.onnx
 *.engine
 *.pth
+models/yolo11s-pose.pt

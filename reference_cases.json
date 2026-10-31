@@ -1,0 +1,10 @@
+{
+  "video": "1031(2).mp4",
+  "scope": "Manual spot checks of clear inside/outside ground locations. These are not full player identity ground truth or a match accuracy benchmark.",
+  "cases": [
+    {"frame": 0, "inside": [[395,610],[865,530],[885,714],[711,830],[922,585]], "outside": [[130,1055],[1838,1043],[260,425]]},
+    {"frame": 953, "inside": [], "outside": [[300,500],[1000,800],[1700,900]], "no_floor": true},
+    {"frame": 1907, "inside": [[520,610],[935,533],[1085,771],[1198,714],[1480,528]], "outside": [[925,954],[1512,876],[677,395],[1471,325]]},
+    {"frame": 2861, "inside": [[218,638],[484,773],[635,722],[718,687],[799,740],[1224,745],[1151,682]], "outside": [[1084,1035],[1823,756],[1867,565]]}
+  ]
+}
