@@ -1,0 +1,14 @@
+# Moving-camera baseline. Appearance re-identification keeps one local ID per
+# visible person across short occlusions; it is still not a roster identity.
+tracker_type: botsort
+track_high_thresh: 0.25
+track_low_thresh: 0.1
+new_track_thresh: 0.35
+track_buffer: 90
+match_thresh: 0.85
+fuse_score: true
+gmc_method: sparseOptFlow
+proximity_thresh: 0.5
+appearance_thresh: 0.6
+with_reid: true
+model: auto
