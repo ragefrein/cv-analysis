@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Video sources and test captures
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+
+# Generated results
+runs/
+outputs/
+*.log
+out_*.mp4
+tracks_*.json
+
+# Optional / unused weights. Keep yolo11s.pt and models/osnet_x0_25_msmt17.pt.
+models/lmbn_n_duke.pt
+*.onnx
+*.engine
+*.pth
